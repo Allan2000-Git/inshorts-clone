@@ -17,7 +17,7 @@ function App() {
 
   const fetchData = async()=>{
     try {
-      const data = await fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=e3c36284ba434515900678bb21b0c1e2&category=${categories}&pageSize=${loadMore}`)
+      const data = await fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${import.meta.env.VITE_API_KEY}&category=${categories}&pageSize=${loadMore}`)
       const res = await data.json();
       setNewsData(res.articles)
       setTotalResults(res.articles.length)
@@ -25,8 +25,6 @@ function App() {
       console.log(error);
     }
   }
-
-  console.log(import.meta.env.VITE_API_KEY);
 
   useEffect(()=>{
     fetchData();

@@ -24,6 +24,7 @@ A simplified and responsive clone of the Inshorts news app built using React.js.
 
 - React.js
 - Material UI
+- Tailwind CSS
 - [News API](https://newsapi.org/)
 
 ## Setup and Installation

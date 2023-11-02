@@ -1,6 +1,6 @@
 # Inshorts Clone
 
-![Inshorts Clone](https://w7.pngwing.com/pngs/439/471/png-transparent-inshorts-online-newspaper-india-news-media-india-text-logo-india.png)
+![Inshorts Clone](https://github.com/Allan2000-Git/inshorts-clone/assets/54631653/e0d8f74c-b977-4709-b6f2-09ea0285052b)
 
 A simplified and responsive clone of the Inshorts news app built using React.js. Stay updated with the latest news in a concise and efficient way.
 
